@@ -1,0 +1,109 @@
+.header {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.links {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    padding: 5px;
+}
+ul {
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul a:hover {
+    color: #3882F6;
+}
+.intro {
+    background-color: #1F2937;
+}
+.leftup {
+    font-size: 48px;
+    font-style: bold;
+    color: #F9FAF8;
+}
+.leftdown {
+    font-weight: 18px;
+    color: #E5E7EB;
+}
+.button1 {
+    border-radius: 10px;
+    border: 2px solid #fff;
+    background-color: #3882F6;
+}
+.right {
+    background-color: #a0a0a0;
+}
+.info {
+    background-color: #fff;
+}
+.infoheader {
+    text-align: center;
+}
+.boxes {
+    padding-left: 400px;
+    padding-right: 400px;
+}
+.box {
+    border-radius: 10px;
+    border: 5px solid #3882F6;
+    padding: 20px; 
+    width: 50px;
+    height: 50px;  
+    display: flex;
+    justify-content: space-between;
+}
+.text {
+    text-align: center;
+}
+.quotebox {
+    background-color: #E5E7EB;
+    height: 500px;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding-top: 180px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.endquote {
+    text-align: right;
+    padding-right: 150px;
+}
+.signup {
+    background-color: #fff;
+    height: 225px;
+}
+.signupbox {
+    border-radius: 10px;
+    background-color: #3882F6;
+    margin: 100px;
+    border: 5px solid #fff;
+}
+.singupbutton {
+    align-items: center;
+    justify-content: center;
+}
+.button2 {
+    color: #444444;
+    background: #F3F3F3;
+    border: 1px #DADADA solid;
+    padding: 5px 10px;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 9pt;
+    outline: none;
+}
+.footer {
+    background-color: #1F2937;
+}
+.copyright {
+    text-align: center;
+    color:#E5E7EB;
+    padding: 8px;
+}
