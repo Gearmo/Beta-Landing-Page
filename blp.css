@@ -39,29 +39,44 @@ ul a:hover {
 }
 .info {
     background-color: #fff;
+    height: 400px;
 }
 .infoheader {
+    padding-top: 20px;
     text-align: center;
 }
 .boxes {
     padding-left: 400px;
     padding-right: 400px;
 }
+.boxrow {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
 .box {
     border-radius: 10px;
     border: 5px solid #3882F6;
     padding: 20px; 
-    width: 50px;
-    height: 50px;  
+    width: 100px;
+    height: 100px;  
     display: flex;
-    justify-content: space-between;
+}
+.textrow {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
 }
 .text {
+    width: 150px;
+    height: 100px;  
+    display: flex;
     text-align: center;
 }
 .quotebox {
     background-color: #E5E7EB;
-    height: 500px;
+    height: 450px;
 }
 .quote {
     font-size: 36px;
@@ -70,34 +85,51 @@ ul a:hover {
     padding-top: 180px;
     padding-left: 150px;
     padding-right: 150px;
+    margin: auto;
+    display: flex;
+    align-items: center;
 }
 .endquote {
     text-align: right;
     padding-right: 150px;
 }
-.signup {
+.signuparea {
     background-color: #fff;
-    height: 225px;
+    height: 300px;
+    align-items: center;
+    justify-items: center;
 }
 .signupbox {
     border-radius: 10px;
     background-color: #3882F6;
-    margin: 100px;
-    border: 5px solid #fff;
-}
-.singupbutton {
+    margin: auto;
+    margin-top: 90px;
+    max-width: 800px;
+    border: 2px solid #fff;
+    display: flex;
     align-items: center;
-    justify-content: center;
+}
+.signuptext {
+    margin: 50px;
+    color: #fff;
+    max-width: 500px;
+    flex: 1;
+}
+.buttonarea {
+    padding-top: 0px;
 }
 .button2 {
-    color: #444444;
-    background: #F3F3F3;
-    border: 1px #DADADA solid;
-    padding: 5px 10px;
-    border-radius: 2px;
-    font-weight: bold;
-    font-size: 9pt;
-    outline: none;
+    background-color: #3882F6;
+    border-color: #fff;
+    border-radius: 8px;
+    border-width: 1;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    float: right;
+    padding-inline: 2rem;
+    padding-top: 15px;
 }
 .footer {
     background-color: #1F2937;
