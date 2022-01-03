@@ -2,61 +2,83 @@
     <head>
         <title>Beta Landing Page</title>
         <link rel="stylesheet" href="blp.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer">
     </head>
-    <header>
-        <p>Header Logo</p>
-    </header>
-    <body>
+
+    <body style="font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
         <section>
             <div class="intro">
-                <div class="left">
-                <h1>This website is awesome</h1>
-                <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-                <button>Sign up</button>
+
+                <div class= "header">
+                    <p>Header Logo</p>
+                    <ul class= "links">
+                        <li><a href="#"><p>header link one</p></a></li>
+                        <li><a href="#"><p>header link two</p></a></li>
+                        <li><a href="#"><p>header link three</p></a></li>
+                    </ul>
                 </div>
+
+                <div class="leftup">
+                <p>This website is awesome</p>
+                </div>
+
+                <div class="leftdown">
+                <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+                <button id="button1">Sign up</button>
+                </div>
+
                 <div class="right">
                 <p>this is a placeholder for an image</p>    
                 </div>
+
             </div>
         </section>
 
         <section>
             <div class="info">
-                <h1>Some random information.</h1>
-                <div class="1">
-                    <div class="box"></div>
-                    <p>this is some subtext under an illustration or image</p>
-                </div>
-                <div class="2">
-                    <div class="box"></div>
-                    <p>this is some subtext under an illustration or image</p>
-                </div>
-                <div class="3">
-                    <div class="box"></div>
-                    <p>this is some subtext under an illustration or image</p>
-                </div>
-                <div class="4">
-                    <div class="box"></div>
-                    <p>this is some subtext under an illustration or image</p>
+                <h1 class="infoheader">Some random information.</h1>
+                <div class="boxes">
+                    <div class="boxrow">
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                    </div>    
+                    <div class="textrow">
+                        <div class="text">
+                            <p>this is some subtext under an illustration or image</p>
+                        </div>
+                        <div class="text">
+                            <p>this is some subtext under an illustration or image</p>
+                        </div>
+                        <div class="text">
+                            <p>this is some subtext under an illustration or image</p>
+                        </div>
+                        <div class="text">
+                            <p>this is some subtext under an illustration or image</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section>
-            <div class="quote">
-                <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read itt. Who knows? All I know is that it looks nice.</p>
-                <p>-Thor, God of Thunder</p>
+            <div class="quotebox">
+                <p class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+                <p class="endquote"><b>-Thor, God of Thunder</b></p>
             </div>
         </section>
 
         <section>
-            <div class="signup">
+            <div class="signuparea">
                 <div class="signupbox">
-                    <p>Call to action! It's time!</p>
+                    <div class="signuptext">
+                    <h1><b>Call to action! It's time!</b></h1>
                     <p>Sign up for our product by clicking that button right over there!</p>
-                </div>
-                <div class="signupbutton">
-                    <button>Sign up</button>
+                    </div>
+                    <div class="buttonarea">
+                        <button class="button2">Sign up</p>
+                    </div>
                 </div>
             </div>
         </section>
