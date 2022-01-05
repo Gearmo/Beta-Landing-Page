@@ -1,2 +1,2 @@
 
-A beta landing page that might work for future projects. Mostly just Flexbox practicing.
+A beta landing page that will act as a template for future a project. Currently using to practicing FlexBox.
